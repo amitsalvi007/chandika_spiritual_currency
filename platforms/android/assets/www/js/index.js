@@ -27,7 +27,7 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        img_join.addEventListener('click' ,this.JoinUs, true);
+        
     },
     // deviceready Event Handler
     //
