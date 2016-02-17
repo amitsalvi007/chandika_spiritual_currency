@@ -3,7 +3,7 @@
     <preference name="phonegap-version" value="3.0.0" />
     <icon src="icon.png" />
     <preference name="SplashScreen" value="screen"/>
-    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenDelay" value="6000" />
     <platform name="android">
         <!-- you can use any density that exists in the Android project -->
         <splash src="splash.png" />

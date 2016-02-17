@@ -12,6 +12,9 @@
         },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.chandika.spiritual"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.chandika.spiritual"
         }
     },
     "dependent_plugins": {}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+    <head>
+       
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Chandika Spiritual Currency</title>
+           <script type="text/javascript" src="js/angular.min.js"></script>
+        
+          <!--<script type="text/javascript" charset="utf-8" src="cordova.js"></script>-->
+        <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/Home.js"></script>
+        
+    </head>
+    <body>
+        <div ng-controller="controller">
+        <div class="app_joinUs">
+            <h1>Currency</h1>
+            <h4 class="cl_h4">Login Details<span class="mandatory">*</span></h4>
+            <div class="cl_div_email">
+                <div class="panel_inner_wrapper">
+                <label>Personal Email ID</label><input  type="text" name="userRegForm:regEmailAddr" ng-model="email.text" maxlength="100" size="30">
+                </div>
+                <br/>
+                <div class="panel_inner_wrapper">
+                <label> Are You Volunteer? </label>
+                <select ng-model="myColor" ng-options="color.name for color in colors" ng-change="myFun()">	
+                    <option value="false" selected="selected">No</option>
+                    <option value="true">Yes</option>
+                </select>
+                </div>
+                <br/>
+            </div>
+            <br/>
+            <h4 class="cl_h4">Name</h4>
+            <div class="cl_div_NameDetails">
+                <div class="panel">
+                <label>Prefix</label><span class="mandatory">*</span>
+                    <select ng-model="myPrefix" ng-options="prefix.name for prefix in prefixs" ng-change="myPre()">	
+                    </select>
+                </div>
+                    <br/>
+                <div class="panel">
+                    <label>First Name</label><span class="mandatory">*</span>
+                    <input type="text"  class="cl_txt_nm" ng-model="fname.text">
+                </div>
+                    <br/>
+                <div class="panel">
+                    <label>Middle Name</label>
+                    <input type="text" class="cl_txt_nm" ng-model="mname.text">
+                </div>
+                    <br/>
+                <div class="panel">
+                    <label>Last Name</label><span class="mandatory">*</span>
+                    <input type="text" class="cl_txt_nm" ng-model="lname.text">
+                </div>
+            
+            </div>
+            <div class="cl_div_submit">
+                <button  ng-click="submit()">Submit</button>
+            </div>
+            
+        </div>
+        </div>
+       
+    </body>
+</html>

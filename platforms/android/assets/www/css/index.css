@@ -128,3 +128,43 @@ h1 {
     align-content: center;
     
 }
+.cl_div_email
+{
+   position: relative;
+    left: 2%;
+    background-color: cornsilk;
+    border:1px;
+    border-color: cadetblue;
+    padding: 1%;
+    width: 90%;
+}
+.cl_div_NameDetails
+{
+     position: relative;
+    left: 2%;
+    background-color:bisque;
+    border:1px;
+    border-color: cadetblue;
+    padding: 1%;
+    width: 90%;
+    
+}
+label
+{
+    padding: 5px;
+    
+}
+h4
+{
+    color:  crimson;
+    
+}
+.mandatory
+{
+    color: red;
+}
+.cl_div_submit
+{
+    align-items: center;
+    left: 50%;
+}

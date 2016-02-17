@@ -9,12 +9,15 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="SQLitePlugin">
+        <param name="android-package" value="io.sqlc.SQLitePlugin" />
+    </feature>
     <splash src="splash.png" />
     <allow-intent href="market:*" />
     <preference name="phonegap-version" value="3.0.0" />
     <icon src="icon.png" />
     <preference name="SplashScreen" value="screen" />
-    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenDelay" value="6000" />
     <preference name="android-minSdkVersion" value="18" />
     <preference name="android-maxSdkVersion" value="23" />
     <preference name="android-targetSdkVersion" value="20" />
